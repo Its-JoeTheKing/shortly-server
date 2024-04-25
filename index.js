@@ -38,7 +38,7 @@ app.get("/search/:id", (req, res)=>{
 
 app.post("/add", (req, res)=>{
 	var	i = randomize().join("");
-	var link = "https://vercel.shortly.com/"+i;
+	var link = "https://shortly-lac.vercel.app/"+i;
 	var data = new m({
 		id: i,
 		redirect: link,
